@@ -26,3 +26,8 @@ It audits web infrastructure by analyzing HTTP security headers, verifying SSL/T
 1. Clone the repository:
    ```bash
    git clone https://github.com/KiwiCodex/vuln-shield-scan.git
+
+2. Command:
+   ```bash
+   python main.py -t [page] 
+#Avoid using "https://", just the "domain name".com
